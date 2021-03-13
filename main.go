@@ -34,7 +34,7 @@ func main() {
 		}
 	}
 	// for optimization use make function to have an initial capacity
-	names := make([]byte, 0 , len(files) * 256)
+	names := make([]byte, 0 , total)
 
 	for _, file := range files {
 		// determines whether a file is empty or not
